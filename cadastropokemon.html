@@ -1,89 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Mestre Pokemon</title>
-		<link rel="stylesheet" href="/style.css" />
-	</head>
 
-	<header>
-		<ul>
-			<li><a href="/index.html">Home</a></li>
-			<li><a href="/cadastropokemon.html">Cadastro Pokemon</a></li>
-			<li><a href="#">Meus Pokemons</a></li>
-			<li><a href="/cadastro.html">Log Out</a></li>
-		</ul>
-	</header>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Mestre Pokemon</title>
+	<link rel="stylesheet" href="/style.css" />
+</head>
 
-	<body>
-		<div class="container">
-			<div class="image">
-				<img src="/img/Daco_5392079.png" />
-			</div>
-			<div class="cadastropokemon">
-				<div class="title">
-					<h1>Cadastro Pokemon</h1>
-				</div>
+<header>
+	<ul>
+		<li><a href="/index.html">Home</a></li>
+		<li><a href="/cadastropokemon.html">Cadastro Pokemon</a></li>
+		<li><a href="#">Meus Pokemons</a></li>
+		<li><a href="/cadastro.html">Log Out</a></li>
+	</ul>
+</header>
 
-				<form action="/index.html">
-					<div class="input">
-						<div class="box">
-							<label for="nome">Nome do Pokemon:</label><br />
-							<input
-								id="nome"
-								type="text"
-								name="nome"
-								placeholder="Digite o nome do seu Pokemon"
-							/>
-						</div>
-						<br />
-						<div class="box">
-							<label for="data">Data de Captura:</label><br />
-							<input id="data" type="date" name="data" />
-						</div>
-						<br />
-						<div class="box">
-							<label for="pokebolas">Pokebolas utilizadas:</label><br />
-							<input
-								id="pokebolas"
-								type="number"
-								name="pokebolas"
-								placeholder="Quantidade de pokebolas"
-							/>
-						</div>
-						<br />
-						<div class="box">
-							<label for="tipo">Tipo:</label>
-							<select name="tipo" id="tipo">
-								<option value="Normal">Normal</option>
-								<option value="Fogo">Fogo</option>
-								<option value="Agua">Água</option>
-								<option value="Ar">Ar</option>
-								<option value="Planta">Planta</option>
-								<option value="Eletrico">Elétrico</option>
-								<option value="Gelo">Gelo</option>
-							</select>
-							<br />
-						</div>
-						<br />
-						<div class="box">
-							<label for="info">Informações adicionais:</label><br />
-							<input
-								id="info"
-								type="text"
-								name="info"
-								placeholder="Alguma informação a acrescentar sobre a captura?"
-							/>
-						</div>
-						<br />
-					</div>
-					<div class="cadastrobtn">
-						<button><a href="/index.html">Cadastre seu Pokemon!</a></button>
-					</div>
-				</form>
-			</div>
+<body>
+	<div class="container">
+		<div class="image">
+			<img src="/img/Daco_5392079.png" />
 		</div>
-	</body>
+		<div class="cadastropokemon">
+			<div class="title">
+				<h1>Cadastro Pokemon</h1>
+			</div>
+
+			<form action="/index.html">
+				<div class="input">
+					<div class="box">
+						<label for="nome">Nome do Pokemon:</label><br />
+						<input id="nome" type="text" name="nome" placeholder="Digite o nome do seu Pokemon" />
+					</div>
+					<br />
+					<div class="box">
+						<label for="data">Data de Captura:</label><br />
+						<input id="data" type="date" name="data" />
+					</div>
+					<br />
+					<div class="box">
+						<label for="pokebolas">Pokebolas utilizadas:</label><br />
+						<input id="pokebolas" type="number" name="pokebolas" placeholder="Quantidade de pokebolas" />
+					</div>
+					<br />
+					<div class="box">
+						<label for="tipo">Tipo:</label>
+						<select name="tipo" id="tipo">
+							<option value="Normal">Normal</option>
+							<option value="Fogo">Fogo</option>
+							<option value="Agua">Água</option>
+							<option value="Ar">Ar</option>
+							<option value="Planta">Planta</option>
+							<option value="Eletrico">Elétrico</option>
+							<option value="Gelo">Gelo</option>
+						</select>
+						<br />
+					</div>
+					<br />
+					<div class="box">
+						<label for="info">Informações adicionais:</label><br />
+						<input id="info" type="text" name="info" placeholder="Alguma informação a acrescentar sobre a captura?" />
+					</div>
+					<br />
+				</div>
+				<div class="cadastrobtn">
+					<button><a href="/index.html">Cadastre seu Pokemon!</a></button>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+
 </html>
