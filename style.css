@@ -94,8 +94,9 @@ body {
     box-shadow: 1px 1px 6px gray;
 }
 
+
 .cadastrobtn {
-    margin-top: 30px;
+    margin-top: 5px;
     width: 100%;
     border: none;
     padding: 0.6rem;
@@ -130,4 +131,10 @@ body {
     flex-direction: column;
 
     background-color: white;
+}
+
+textarea {
+    line-height: 20px;
+    height: 90px;
+    resize: none;
 }
